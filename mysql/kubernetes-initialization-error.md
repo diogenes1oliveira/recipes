@@ -1,7 +1,7 @@
 ## Initialization errors
 
 When running into 137 exit codes for MySQL containers in Kubernetes,
-be sure to add the following code to `/etc/mysql/conf.d`:
+be sure to add the following code to `/etc/mysql/conf.d/dns-fix.cnf`:
 
 ```[conf]
 [mysqld]
